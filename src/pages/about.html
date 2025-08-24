@@ -1,0 +1,45 @@
+---
+title: About
+---
+
+<div class="title">
+  <p>About Me</p>
+</div>
+
+<div class="description">
+  <p>I'm <span class="highlight">povario</span>.</p>
+
+  <p>I'm just a guy who likes programming.</p></p>
+  <p>I'm still only 17 and got a long way to go, but I'm working on it, trust. I've still done some cool stuff though:</p>
+
+  <ul class="center-list">
+    {% for cool in links.coolStuff %}
+      <li>
+        <a 
+          class="reg-link" 
+          href="{{ cool.href }}"
+        >
+          {{ cool.text }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="description">
+  <p>I've managed to famaliarize myself with these...</p>
+
+  <p style="font-weight: bold;">Languages:</p>
+  <ul class="center-list">
+    {% for lang in languages %}
+      <li>{{ lang }}</li> 
+    {% endfor %}
+  </ul>
+
+  <p style="font-weight: bold;">Tools:</p>
+  <ul class="center-list">
+    {% for tool in tools %}
+      <li>{{ tool }}</li>
+    {% endfor %}
+  </ul>
+</div>

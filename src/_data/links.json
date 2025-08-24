@@ -1,0 +1,79 @@
+{
+  "sites": [
+    {
+      "text": "Pufferpanel",
+      "href": "https://hosting.povario.com"
+    },
+    {
+      "text": "Nextcloud",
+      "href": "https://cloud.povario.com"
+    },
+    {
+      "text": "Freetube Web",
+      "href": "https://tube.povario.com"
+    },
+    {
+      "text": "About Me",
+      "href": "about"
+    }
+  ],
+
+  "socials": [
+    {
+      "text": "Lemmy",
+      "href": "https://discuss.tchncs.de/u/powermaker450",
+      "target": "_blank"
+    },
+    {
+      "text": "Mastodon",
+      "href": "https://mastodon.social/@powermaker450",
+      "target": "_blank"
+    },
+    {
+      "text": "Github",
+      "href": "https://github.com/powermaker450",
+      "target": "_blank"
+    },
+    {
+      "text": "Codeberg",
+      "href": "https://codeberg.org/povario",
+      "target": "_blank"
+    },
+    {
+      "text": "Contact Me",
+      "href": "mailto:contact@povario.com",
+      "target": "_blank"
+    }
+  ],
+
+  "coolStuff": [
+    {
+      "text": "This website!",
+      "href": "https://codeberg.org/povario/site"
+    },
+    {
+      "text": "auff, a mobile client for 2FAuth servers",
+      "href": "https://github.com/powermaker450/auff"
+    },
+    {
+      "text": "My confessions bot, Confoss",
+      "href": "https://codeberg.org/povario/confoss"
+    },
+    {
+      "text": "puffMob, a mobile client for Pufferpanel servers (kinda dead atm)",
+      "href": "https://github.com/powermaker450/puffMob"
+    },
+    {
+      "text": "fidget, an app that kinda just has random stuff that counts and has haptic feedback",
+      "href": "https://github.com/powermaker450/fidget"
+    },
+    {
+      "text": "Thompoint, a map of thompson island that lets you plot points and share them",
+      "href": "https://github.com/powermaker450/thompoint"
+    },
+    {
+      "text": "term-colors, a simple CLI program that displays falling colors in your terminal",
+      "href": "https://github.com/powermaker450/term-colors"
+    }
+  ]
+}

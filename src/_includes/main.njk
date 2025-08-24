@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="/images/potato.png">
+
+    <link rel="stylesheet" type="text/css" href="/styles/colors.css">
+    <link rel="stylesheet" type="text/css" href="/styles/keyframes.css">
+    <link rel="stylesheet" type="text/css" href="/styles/index.css">
+
+    <title>{{ title }}</title>
+  </head>
+
+  <body>
+    <div id="root">
+      <div id="header" class="header fade-in">
+        {% if title === "Home" %}
+          {% for site in links.sites %}
+            <a
+              class="header-link" 
+              href="{{ site.href }}"
+              target='{{ site.target if site.target else "_self" }}'
+            >
+              {{ site.text }}
+            </a>
+          {% endfor %}
+        {% else %}
+          <a 
+            class="header-link"
+            href=".."
+            target="_self"
+          >
+            Back
+          </a>
+        {% endif %}
+      </div>
+
+      <div id="main" class="content">
+        {{ content | safe }}
+      </div>
+    </div>
+  </body>
+</html>

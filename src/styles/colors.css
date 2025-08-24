@@ -1,0 +1,30 @@
+:root {
+  --background: rgb(0, 0, 0);
+  --main: rgb(250, 90, 0);
+  --primary: rgb(40, 40, 40);
+  --secondary: rgb(100, 100, 100);
+  --tertiary: rgb(30, 30, 30);
+  --text-color: rgb(255, 255, 255);
+  --shadow-color: rgba(40, 40, 40, 0.5);
+  --shadow: 5px 5px 7px var(--shadow-color); 
+
+  font-family: Inter, system-ui, Arial, Helvetica, sans-serif;
+
+  color: var(--text-color);
+  background-color: var(--background);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: rgb(220, 220, 220);
+    --primary: rgb(255, 255, 255);
+    --secondary: rgb(170, 170, 170);
+    --tertiary: rgb(100, 100, 100);
+    --text-color: rgb(0, 0, 0);
+    --shadow: 5px 5px 7px rgba(0, 0, 0, 0.2);
+  }
+}

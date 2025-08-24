@@ -1,0 +1,31 @@
+---
+title: Home
+permalink: /
+---
+
+<img 
+  class="profile-picture zoom-in-large"
+  src="/img/potato.png"
+  alt="A Minecraft potato image edited to have two eyes and a mouth with a snaggle tooth, set as my profile picture."
+>
+
+<div class="head zoom-in">
+  <p class="title no-background glow">@povario</p>
+  <p class="description no-background">Professional FOSS Enjoyer</p>
+</div>
+
+<div class="social-link-area">
+  {% for social in links.socials %}
+    <a
+      class="social-link-button"
+      href="{{ social.href }}"
+    >
+      {{ social.text }}
+    </a>
+  {% endfor %}
+</div>
+
+<div class="description">
+  <p>You've reached my homepage.</p>
+  <p>If you were looking for something, it's probably one of the links in the header.</p>
+</div>
