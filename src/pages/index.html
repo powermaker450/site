@@ -19,6 +19,7 @@ permalink: /
     <a
       class="social-link-button"
       href="{{ social.href }}"
+      target='{{ social.target if social.target else "_self" }}'
     >
       {{ social.text }}
     </a>
